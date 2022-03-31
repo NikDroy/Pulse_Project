@@ -1,1 +1,215 @@
-*{font-family:"Museo Sans Cyrl",sans-serif}.container{max-width:950px;margin:0 auto}.promo{min-height:650px;padding:21px 0 93px 0;background:url(../../img/main.jpg) center center/cover no-repeat}.promo__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-top:90px;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.promo__header{font-weight:700;font-size:42px;line-height:42px;text-transform:uppercase;color:#fff}.promo__subheader{font-weight:500;font-size:24px;line-height:24px;text-transform:uppercase;color:#fff;margin-top:17px}.promo__icons{margin-top:65px;width:425px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.promo__icon{width:108px;text-align:center;font-weight:500;font-size:14px;color:#fff}.promo__icon img{display:block;margin:0 auto;margin-bottom:20px}.promo__link{font-weight:500;font-size:16px;color:#fff;margin-top:18px}.promo__link a{text-decoration:underline;text-transform:uppercase;color:#fff}.header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.header__logo{width:250px}.header__logo img{width:100%}.header__official{font-weight:500;font-size:12px;color:#fff;text-align:center}.header__official span{display:block;font-size:18px}.header__phone{font-weight:700;font-size:18px;color:#fff;display:block}.header__phone:hover{color:#a3a3df;text-decoration:none}.header__contacts{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.button{width:150px;height:30px;border-radius:5px;background-color:#c70101;border:none;font-weight:500;font-size:12px;color:#fff;text-transform:uppercase}.button_main{width:303px;height:54px;font-size:16px;margin-top:65px}
+* {
+  font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url(../../img/main.jpg) center center/cover no-repeat;
+}
+
+.promo__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 90px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.promo__header {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.promo__subheader {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 17px;
+}
+
+.promo__icons {
+  margin-top: 65px;
+  width: 425px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.promo__icon {
+  width: 108px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.promo__icon img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.promo__link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 18px;
+}
+
+.promo__link a {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  width: 250px;
+}
+
+.header__logo img {
+  width: 100%;
+}
+
+.header__official {
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+.header__official span {
+  display: block;
+  font-size: 18px;
+}
+
+.header__phone {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+}
+
+.header__phone:hover {
+  color: #a3a3df;
+  text-decoration: none;
+}
+
+.header__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #c70101;
+  border: none;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.button_main {
+  width: 303px;
+  height: 54px;
+  font-size: 16px;
+  margin-top: 65px;
+}
+
+.advantage {
+  padding: 70px 0 80px 0;
+  background-color: #f6f6f6;
+}
+
+.advantage__header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #0D0D0D;
+}
+
+.advantage__reasons {
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advantage__reason {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 238px;
+}
+
+.advantage__reason span {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.advantage__descr {
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  color: #0D0D0D;
+}
+
+.advantage__descr a {
+  color: #ff0000;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.min.css.map */
