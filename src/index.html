@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulse-Project</title>
     <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/slick.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -52,10 +54,10 @@
                  </div>
             </div>
         </div>
-    </div>
-    <div class="advantage">
+    </section>
+    <section class="advantage">
         <div class="container">
-            <h2 class="advantage__header">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantage__reasons">
                 <div class="advantage__reason">
                     <img src="icons/advantages/cup.png" alt="cup">
@@ -71,7 +73,7 @@
                     <img src="icons/advantages/heart.png" alt="heart">
                     <span>Заботимся о здоровье</span>
                    <div class="advantage__descr"> 
-                    Мы работаем для того, 
+                    Мы работаем для того,<br>
                     чтобы Ваши занятия спортом 
                     шли на пользу Вашему здоровью
                     и были в радость Вам и Вашим близким!</div>
@@ -80,13 +82,52 @@
                     <img src="icons/advantages/shoe.png" alt="shoe">
                    <span>Учим бегать</span>
                     <div class="advantage__descr">
-                    Помогаем с обучением 
-                    правильной технике бега! Дружим с крупнейшей школой бега в<br>России - <a href="#">I LOVE RUNNING.</a></div>
+                    Помогаем с обучением <br>
+                    правильной технике бега!<br> Дружим с крупнейшей школой бега в России - <a href="#">I LOVE RUNNING.</a></div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию<br> по подбору пульсометра 
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки<br> 
+                и мы перезвоним вам в течении 10 минут
+            </div>
 
-
+            <form class="feed-form" action="#" method="post">
+                <input name="name" required placeholder="Ваше имя" type="text" >
+                <input name="phone" required placeholder="Ваш телефон" type="number" >
+                <input name="email" required placeholder="Ваше E-mail" type="email" >
+                <!-- <input type="submit" value="Заказать консультацию"> -->
+                <!-- <textarea name="text" style="resize: none;" cols="4" rows="1"></textarea> -->
+                <button class="button button_submit">Заказать консультацию</button>
+                <!-- <input type="reset"> -->
+            </form>
+        </div>
+    </section>
+    <section class="carousel">
+        <div class="container">      
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/slide_1.jpg" alt="slide">
+                    </div>
+                <div><img src="img/slide_2.jpg" alt="slide">
+                    </div>
+                <div><img src="img/slide_3.jpg" alt="slide">
+                    </div>
+            </div>
+            <button type="button" class="prev"><img src="icons/left.svg"></button>
+            <button type="button" class="next"><img src="icons/right.svg"></button>
+        </div>
+    </section>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js "></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
